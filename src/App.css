@@ -133,7 +133,6 @@ body {
 @media (max-width: 768px) {
   body {
     font-size: 14px;
-
   }
 
   .app {
@@ -215,7 +214,7 @@ body {
   }
 
   .title {
-    font-size: 4.5rem;
+    font-size: 4.1rem;
   }
 
   .subtitle {
@@ -228,5 +227,19 @@ body {
 
   .nav a {
     font-size: 1rem;
+  }
+
+  .content {
+    width: 100%;
+  }
+
+  .image-column {
+    margin-right: -50px;
+    margin-top: -10px;
+  }
+
+  .image-column img {
+    height: 80vh;
+    width: auto;
   }
 }
