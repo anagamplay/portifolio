@@ -1,0 +1,71 @@
+.my-expertise-section .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  background-color: transparent;
+}
+
+.my-expertise-section .title {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.my-expertise-section .boxes {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  gap: 20px;
+  width: 100%;
+}
+
+.my-expertise-section .box {
+  color: white;
+  padding: 40px;
+  flex: 1 1 300px;
+  max-width: 30%;
+  box-sizing: border-box;
+  text-align: left;
+  border: 2px solid #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.my-expertise-section .box .header {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.my-expertise-section .box .header .icon {
+  font-size: 2.6rem;
+}
+
+.my-expertise-section .box h3 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.my-expertise-section .highlight {
+  color: #F27B35;
+}
+
+.my-expertise-section .icon {
+  font-size: 2rem;
+}
+
+@media (max-width: 768px) {
+  .my-expertise-section .box {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+}

@@ -1,10 +1,10 @@
 import React from 'react';
 import profileImage from '../../assets/profile.png';
-import './style.css';
+import './Home.css';
 
 function Home() {
     return (
-        <div className="content">
+        <div className="home-content">
             <div className="text-column">
                 <h2 className="title">ANA CLARA SILVESTRE</h2>
                 <p className="subtitle">Desenvolvedora Front-end e Mobile</p>
