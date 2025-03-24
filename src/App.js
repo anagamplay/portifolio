@@ -1,6 +1,9 @@
 import './App.css';
-import profileImage from './assets/profile.png';
 import { useState } from 'react';
+import Home from './sections/Home';
+import MyExpertise from './sections/MyExpertise';
+// import About from './sections/About';
+// import Contact from './sections/Contact';
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -23,19 +26,10 @@ function App() {
         </div>
       </header>
       <main className="main">
-        <div className="content">
-          <div className="text-column">
-            <h2 className="title">ANA CLARA SILVESTRE</h2>
-            <p className="subtitle">Desenvolvedora Front-end e Mobile</p>
-            <div className="buttons">
-              <button className="btn hire-me">Contato</button>
-              <button className="btn download-cv">Download CV</button>
-            </div>
-          </div>
-          <div className="image-column">
-            <img src={profileImage} alt="Profile" />
-          </div>
-        </div>
+        <Home />
+        <MyExpertise />
+        {/* <About />
+        <Contact /> */}
       </main>
     </div>
   );

@@ -53,84 +53,13 @@ body {
 
 .main {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   flex: 1;
   width: 100%;
   position: relative;
-}
-
-.content {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  max-width: 1200px;
-}
-
-.text-column {
-  flex: 1;
-  text-align: left;
-  position: absolute;
-}
-
-.title {
-  font-size: 2.5rem;
-  font-weight: bold;
-  margin: 0;
-}
-
-.subtitle {
-  color: #F27B35;
-  font-size: 1.4rem;
-  font-weight: bold;
-  margin: 0;
-}
-
-.buttons {
-  margin-top: 30px;
-}
-
-.btn {
-  padding: 9px 20px;
-  margin-right: 20px;
-  border: none;
-  border-radius: 24px;
-  cursor: pointer;
-  font-family: 'Poppins', sans-serif;
-  font-weight: bold;
-}
-
-.hire-me {
-  background-color: #F27B35;
-  color: white;
-}
-
-.hire-me:hover {
-  background-color: #F27B35;
-}
-
-.download-cv {
-  background-color: #393E46;
-  color: white;
-}
-
-.download-cv:hover {
-  background-color: #555;
-}
-
-.image-column {
-  flex: 1;
-  display: flex;
-  justify-content: right;
-  align-items: flex-start;
-  margin-right: -50px;
-}
-
-.image-column img {
-  width: 100%;
-  max-width: 300px;
-  height: auto;
-  object-fit: cover;
+  gap: 150px;	
 }
 
 @media (max-width: 768px) and (orientation: portrait) {
@@ -161,47 +90,6 @@ body {
     display: block;
   }
 
-  .content {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .text-column {
-    position: static;
-    text-align: center;
-    margin-bottom: 20px;
-  }
-
-  .image-column {
-    margin-top: 0;
-    margin-right: 0;
-  }
-
-  .image-column img {
-    width: 100%;
-    max-width: 300px;
-    height: auto;
-  }
-
-  .title {
-    font-size: 2.5rem;
-  }
-
-  .subtitle {
-    font-size: 1.25rem;
-  }
-
-  .buttons {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 20px;
-  }
-
-  .btn {
-    margin: 10px;
-  }
-
   .logo {
     font-size: 1rem;
   }
@@ -217,34 +105,12 @@ body {
     font-size: 14px;
   }
 
-  .title {
-    font-size: 2.4rem;
-  }
-
-  .subtitle {
-    font-size: 1.1rem;
-  }
-
   .logo {
     font-size: 0.9rem;
   }
 
   .nav a {
     font-size: 0.9rem;
-  }
-
-  .content {
-    width: 100%;
-  }
-
-  .image-column {
-    margin-right: -50px;
-    margin-top: -10px;
-  }
-
-  .image-column img {
-    height: 80vh;
-    width: auto;
   }
 }
 
@@ -253,34 +119,11 @@ body {
     font-size: 18px;
   }
 
-  .title {
-    font-size: 4.1rem;
-  }
-
-  .subtitle {
-    font-size: 2rem;
-  }
-
   .logo {
     font-size: 1.2rem;
   }
 
   .nav a {
     font-size: 1rem;
-  }
-
-  .content {
-    width: 100%;
-  }
-
-  .image-column {
-    margin-right: -50px;
-    margin-top: -10px;
-  }
-
-  .image-column img {
-    max-width: 550px;
-    height: 80vh;
-    width: auto;
   }
 }
