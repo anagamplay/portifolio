@@ -5,6 +5,7 @@ body {
   font-family: 'Poppins', sans-serif;
   background-color: #222831;
   color: white;
+  font-size: 16px;
 }
 
 .app {
@@ -24,18 +25,30 @@ body {
 }
 
 .logo {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: bold;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
 }
 
 .nav a {
   margin: 0 15px;
   color: white;
   text-decoration: none;
+  font-size: 1rem;
 }
 
 .nav a:hover {
   color: #ff7f50;
+}
+
+.menu-icon {
+  display: none;
+  font-size: 1.5rem;
+  cursor: pointer;
 }
 
 .main {
@@ -61,14 +74,14 @@ body {
 }
 
 .title {
-  font-size: 60px;
+  font-size: 3.75rem;
   font-weight: bold;
   margin: 0;
 }
 
 .subtitle {
   color: #F27B35;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: bold;
   margin: 0;
 }
@@ -109,12 +122,111 @@ body {
   display: flex;
   justify-content: right;
   align-items: flex-start;
-  margin-top: -30px;
-  margin-right: -40px;
+  margin-right: -100px;
 }
 
 .image-column img {
-  width: 500px;
-  height: 500px;
+  width: 550px;
   object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+
+  }
+
+  .app {
+    margin: 0 20px;
+  }
+
+  .nav {
+    display: none;
+    flex-direction: column;
+    background-color: #222831;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .nav.open {
+    display: flex;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .text-column {
+    position: static;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .image-column {
+    margin-top: 0;
+    margin-right: 0;
+  }
+
+  .image-column img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .title {
+    font-size: 2.5rem;
+  }
+
+  .subtitle {
+    font-size: 1.25rem;
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .btn {
+    margin: 10px;
+  }
+
+  .logo {
+    font-size: 1rem;
+  }
+
+  .nav a {
+    font-size: 0.875rem;
+    margin: 10px 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    font-size: 18px;
+  }
+
+  .title {
+    font-size: 4.5rem;
+  }
+
+  .subtitle {
+    font-size: 2rem;
+  }
+
+  .logo {
+    font-size: 1.2rem;
+  }
+
+  .nav a {
+    font-size: 1rem;
+  }
 }
