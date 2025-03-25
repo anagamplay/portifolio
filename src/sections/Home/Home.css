@@ -24,7 +24,7 @@
 }
 
 .home-section .buttons {
-    margin-top: 30px;
+    margin-top: 60px;
 }
 
 .home-section .btn {
@@ -47,7 +47,7 @@
 }
 
 .home-section .download-cv {
-    background-color: #393E46;
+    background-color: rgba(57, 62, 70, 0.75);
     color: white;
 }
 
@@ -139,21 +139,21 @@
 
 @media (min-width: 1200px) {
     .home-section .title {
-        font-size: 4.1rem;
+        font-size: 3.8rem;
     }
 
     .home-section .subtitle {
-        font-size: 2rem;
+        font-size: 1.9rem;
     }
 
     .home-section .image-column {
-        margin-right: -50px;
+        margin-right: 0px;
         margin-top: -10px;
     }
 
     .home-section .image-column img {
-        max-width: 550px;
-        height: 80vh;
+        max-width: 650px;
+        height: 70vh;
         width: auto;
     }
 }

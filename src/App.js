@@ -15,14 +15,16 @@ function App() {
   return (
     <div className="app">
       <header className="header">
-        <h1 className="logo">Ana Clara Silvestre</h1>
-        <nav className={`nav ${menuOpen ? 'open' : ''}`}>
-          <a href="#home">Home</a>
-          <a href="#about">Sobre mim</a>
-          <a href="#contact">Contato</a>
-        </nav>
-        <div className="menu-icon" onClick={toggleMenu}>
-          ☰
+        <div class="header-content">
+          <h1 className="logo">Ana Clara Silvestre</h1>
+          <nav className={`nav ${menuOpen ? 'open' : ''}`}>
+            <a href="#home">Home</a>
+            <a href="#about">Sobre mim</a>
+            <a href="#contact">Contato</a>
+          </nav>
+          <div className="menu-icon" onClick={toggleMenu}>
+            ☰
+          </div>
         </div>
       </header>
       <main className="main">
