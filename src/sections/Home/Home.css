@@ -1,4 +1,4 @@
-.home-content {
+.content {
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -150,7 +150,6 @@
     .content {
         width: 100%;
         margin-top: 50px;
-        background-color: #F27B35;
     }
 
     .image-column {

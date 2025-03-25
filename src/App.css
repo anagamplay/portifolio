@@ -75,7 +75,6 @@ body {
   .nav {
     display: none;
     flex-direction: column;
-    background-color: #222831;
     position: absolute;
     top: 60px;
     right: 0;
