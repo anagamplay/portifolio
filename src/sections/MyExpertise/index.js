@@ -12,7 +12,7 @@ function MyExpertise() {
                     <div className="box">
                         <div className="header">
                             <FontAwesomeIcon icon={faCode} className="icon" />
-                            <h3>Desenvolvimento de <br /><span className="highlight">Software</span></h3>
+                            <h3>Desenvolvimento <br />de <span className="highlight">Software</span></h3>
                         </div>
                         <p>Experiente em programação funcional e orientada a objetos: Dart, Python, JavaScript, PHP.</p>
                     </div>

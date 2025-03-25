@@ -1,34 +1,33 @@
-.content {
-    display: flex;
-    justify-content: space-between;
+.home-section .content {
     width: 100%;
     max-width: 1200px;
+    margin: 0 auto;
 }
 
-.text-column {
+.home-section .text-column {
     flex: 1;
     text-align: left;
     position: absolute;
 }
 
-.title {
+.home-section .title {
     font-size: 2.5rem;
     font-weight: bold;
     margin: 0;
 }
 
-.subtitle {
+.home-section .subtitle {
     color: #F27B35;
     font-size: 1.4rem;
     font-weight: bold;
     margin: 0;
 }
 
-.buttons {
+.home-section .buttons {
     margin-top: 30px;
 }
 
-.btn {
+.home-section .btn {
     padding: 9px 20px;
     margin-right: 20px;
     border: none;
@@ -38,25 +37,25 @@
     font-weight: bold;
 }
 
-.hire-me {
+.home-section .hire-me {
     background-color: #F27B35;
     color: white;
 }
 
-.hire-me:hover {
+.home-section .hire-me:hover {
     background-color: #F27B35;
 }
 
-.download-cv {
+.home-section .download-cv {
     background-color: #393E46;
     color: white;
 }
 
-.download-cv:hover {
+.home-section .download-cv:hover {
     background-color: #555;
 }
 
-.image-column {
+.home-section .image-column {
     flex: 1;
     display: flex;
     justify-content: right;
@@ -64,7 +63,7 @@
     margin-right: -50px;
 }
 
-.image-column img {
+.home-section .image-column img {
     width: 100%;
     max-width: 300px;
     height: auto;
@@ -72,92 +71,87 @@
 }
 
 @media (max-width: 768px) and (orientation: portrait) {
-    .content {
+    .home-section .content {
         flex-direction: column;
         align-items: center;
     }
 
-    .text-column {
+    .home-section .text-column {
         position: static;
         text-align: center;
         margin-bottom: 20px;
     }
 
-    .image-column {
+    .home-section .image-column {
         margin-top: 0;
         margin-right: 0;
     }
 
-    .image-column img {
+    .home-section .image-column img {
         width: 100%;
         max-width: 300px;
         height: auto;
     }
 
-    .title {
+    .home-section .title {
         font-size: 2.5rem;
     }
 
-    .subtitle {
+    .home-section .subtitle {
         font-size: 1.25rem;
     }
 
-    .buttons {
+    .home-section .buttons {
         display: flex;
         flex-direction: row;
         justify-content: center;
         margin-top: 20px;
     }
 
-    .btn {
+    .home-section .btn {
         margin: 10px;
     }
 }
 
 @media (max-width: 768px) and (orientation: landscape) {
-    .title {
+    .home-section .title {
         font-size: 2.4rem;
     }
 
-    .subtitle {
+    .home-section .subtitle {
         font-size: 1.1rem;
     }
 
-    .content {
+    .home-section .content {
         width: 100%;
     }
 
-    .image-column {
+    .home-section .image-column {
         margin-right: -50px;
         margin-top: -10px;
     }
 
-    .image-column img {
+    .home-section .image-column img {
         height: 80vh;
         width: auto;
     }
 }
 
 @media (min-width: 1200px) {
-    .title {
+    .home-section .title {
         font-size: 4.1rem;
     }
 
-    .subtitle {
+    .home-section .subtitle {
         font-size: 2rem;
     }
 
-    .content {
-        width: 100%;
-        margin-top: 50px;
-    }
-
-    .image-column {
+    .home-section .image-column {
         margin-right: -50px;
         margin-top: -10px;
     }
 
-    .image-column img {
+    .home-section .image-column img {
         max-width: 550px;
         height: 80vh;
         width: auto;
