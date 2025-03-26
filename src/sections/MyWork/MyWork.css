@@ -52,6 +52,23 @@
     margin-top: 60px;
 }
 
+.my-work-section .pagination {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.my-work-section .pagination span {
+    margin: 0 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}
+
+.my-work-section .arrow {
+    cursor: pointer;
+}
+
 @media (max-width: 768px) {
     .my-work-section .title {
         font-size: 2.5rem;
