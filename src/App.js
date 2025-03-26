@@ -2,6 +2,7 @@ import "./App.css";
 import { useState } from "react";
 import Home from "./sections/Home";
 import MyExpertise from "./sections/MyExpertise";
+import MyWork from "./sections/MyWork";
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -44,6 +45,7 @@ function App() {
       <main className="main">
         <Home />
         <MyExpertise />
+        <MyWork />
       </main>
     </div>
   );

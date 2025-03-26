@@ -1,6 +1,7 @@
 import React from 'react';
 import profileImage from '../../assets/profile.png';
 import './Home.css';
+import Button from '../../components/Button';
 
 function Home() {
     return (
@@ -10,8 +11,8 @@ function Home() {
                     <h2 className="title">ANA CLARA SILVESTRE</h2>
                     <p className="subtitle">Desenvolvedora Front-end e Mobile</p>
                     <div className="buttons">
-                        <button className="btn hire-me">Contato</button>
-                        <button className="btn download-cv">Download CV</button>
+                        <Button className="primary">Contato</Button>
+                        <Button className="secondary">Download CV</Button>
                     </div>
                 </div>
                 <div className="image-column">

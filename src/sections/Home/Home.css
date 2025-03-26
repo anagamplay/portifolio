@@ -27,34 +27,6 @@
     margin-top: 60px;
 }
 
-.home-section .btn {
-    padding: 9px 20px;
-    margin-right: 20px;
-    border: none;
-    border-radius: 24px;
-    cursor: pointer;
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-}
-
-.home-section .hire-me {
-    background-color: #F27B35;
-    color: white;
-}
-
-.home-section .hire-me:hover {
-    background-color: #F27B35;
-}
-
-.home-section .download-cv {
-    background-color: rgba(57, 62, 70, 0.75);
-    color: white;
-}
-
-.home-section .download-cv:hover {
-    background-color: #555;
-}
-
 .home-section .image-column {
     flex: 1;
     display: flex;
