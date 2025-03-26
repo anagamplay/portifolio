@@ -23,14 +23,14 @@ section {
   margin: 0 60px 0;
 }
 
-.header {
+.app-header {
   width: 100%;
   padding: 25px 0;
   position: relative;
   margin-bottom: 5rem;
 }
 
-.header::after {
+.app-header::after {
   content: '';
   position: absolute;
   bottom: 0;
@@ -86,7 +86,7 @@ section {
   flex: 1;
   width: 100%;
   position: relative;
-  gap: 200px;
+  gap: 9rem;
 }
 
 @media (max-width: 768px) and (orientation: portrait) {
@@ -96,6 +96,10 @@ section {
 
   .app {
     margin: 0 20px;
+  }
+
+  .app-header {
+    margin-bottom: 2.5rem;
   }
 
   .nav {
@@ -123,6 +127,10 @@ section {
   .nav a {
     font-size: 0.875rem;
     margin: 10px 0;
+  }
+
+  .main {
+    gap: 4rem;
   }
 }
 

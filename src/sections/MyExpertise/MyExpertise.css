@@ -90,10 +90,36 @@
   height: auto;
 }
 
-
 @media (max-width: 768px) {
+  .my-expertise-section .title {
+    font-size: 2.5rem;
+  }
+
   .my-expertise-section .box {
     flex: 1 1 100%;
     max-width: 100%;
+    padding: 25px;
+  }
+
+  .my-expertise-section .box h3 {
+    font-size: 1.2rem;
+  }  
+
+  .my-expertise-section .box .header .icon {
+    font-size: 2rem;
+  }
+
+  .line-with-text {
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .my-expertise-section .title {
+    font-size: 2rem;
+  }
+
+  .my-expertise-section .box .header .icon {
+    font-size: 1.6rem;
   }
 }

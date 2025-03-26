@@ -14,7 +14,7 @@ function App() {
 
   return (
     <div className="app">
-      <header className="header">
+      <header className="app-header">
         <div class="header-content">
           <h1 className="logo">Ana Clara Silvestre</h1>
           <nav className={`nav ${menuOpen ? 'open' : ''}`}>
