@@ -1,9 +1,7 @@
-import './App.css';
-import { useState } from 'react';
-import Home from './sections/Home';
-import MyExpertise from './sections/MyExpertise';
-// import About from './sections/About';
-// import Contact from './sections/Contact';
+import "./App.css";
+import { useState } from "react";
+import Home from "./sections/Home";
+import MyExpertise from "./sections/MyExpertise";
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -12,26 +10,40 @@ function App() {
     setMenuOpen(!menuOpen);
   };
 
+  const closeMenu = () => {
+    setMenuOpen(false);
+  };
+
   return (
     <div className="app">
       <header className="app-header">
-        <div class="header-content">
+        <div className="header-content">
           <h1 className="logo">Ana Clara Silvestre</h1>
-          <nav className={`nav ${menuOpen ? 'open' : ''}`}>
-            <a href="#home">Home</a>
-            <a href="#about">Sobre mim</a>
-            <a href="#contact">Contato</a>
+          <nav className={`nav ${menuOpen ? "open" : ""}`}>
+            <button className="close-menu" onClick={closeMenu}>
+              ✖
+            </button>
+            <a href="#home" onClick={closeMenu}>
+              Home
+            </a>
+            <a href="#about" onClick={closeMenu}>
+              Sobre mim
+            </a>
+            <a href="#contact" onClick={closeMenu}>
+              Contato
+            </a>
           </nav>
           <div className="menu-icon" onClick={toggleMenu}>
             ☰
           </div>
         </div>
       </header>
+
+      {menuOpen && <div className="overlay" onClick={closeMenu}></div>}
+
       <main className="main">
         <Home />
         <MyExpertise />
-        {/* <About />
-        <Contact /> */}
       </main>
     </div>
   );
