@@ -5,33 +5,39 @@ import './MyWork.css';
 import Button from '../../components/Button';
 import WorkCard from './components/Card';
 
+import paceApp from '../../assets/paceapp-tumb.png';
+import colaAqui from '../../assets/cola-aqui-tumb.png';
+import ifms from '../../assets/ifms-tumb.png';
+import paceapp from '../../assets/paceapp-tumb.png';
+import portifolio from '../../assets/portifolio-tumb.png';
+
 const workItems = [
     {
-        imageSrc: "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        imageSrc: paceApp,
         description: "PaceApp - Aplicativo interativo de corrida"
     },
     {
-        imageSrc: "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        imageSrc: colaAqui,
+        description: "Cola Aqui - Seu app de role"
+    },
+    {
+        imageSrc: ifms,
+        description: "iFMS - Aplicativo de comunicações para o IFMS"
+    },
+    {
+        imageSrc: portifolio,
+        description: "Ana Clara Silvestre - Desenvolvedora Front-end e Mobile"
+    },
+    {
+        imageSrc: paceapp,
         description: "PaceApp - Aplicativo interativo de corrida"
     },
     {
-        imageSrc: "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        imageSrc: paceapp,
         description: "PaceApp - Aplicativo interativo de corrida"
     },
     {
-        imageSrc: "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        description: "PaceApp - Aplicativo interativo de corrida"
-    },
-    {
-        imageSrc: "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        description: "PaceApp - Aplicativo interativo de corrida"
-    },
-    {
-        imageSrc: "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        description: "PaceApp - Aplicativo interativo de corrida"
-    },
-    {
-        imageSrc: "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        imageSrc: paceapp,
         description: "PaceApp - Aplicativo interativo de corrida"
     }
 ];

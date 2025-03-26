@@ -48,7 +48,7 @@
 .my-work-section .work-list {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 100px;
+    gap: 50px;
     margin-top: 60px;
 }
 
