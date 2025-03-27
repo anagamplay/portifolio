@@ -1,9 +1,9 @@
 import React from 'react';
-import './MyExpertise.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCode, faLaptopCode, faMobileAlt } from '@fortawesome/free-solid-svg-icons';
 import LineWithText from './components/LineWithText';
 import backGroundImage from '../../assets/my-expertise-bg.png';
+import './MyExpertise.css';
 
 function MyExpertise() {
     return (

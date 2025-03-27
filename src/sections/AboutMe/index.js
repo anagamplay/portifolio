@@ -8,10 +8,10 @@ function AboutMe() {
             <div className="content">
                 <div className="text-column">
                     <h2 className="title">Sobre <span className="highlight">mim</span></h2>
-                    <p>
+                    <p className='text'>
                         Oii, eu me chamo Ana Clara! Sou desenvolvedora front-end e mobile, apaixonada por criar interfaces modernas, intuitivas e funcionais. O que mais me motiva na programação é a possibilidade de transformar ideias em experiências reais, criando soluções que facilitem a vida das pessoas.
                     </p>
-                    <p>
+                    <p className='text'>
                         Minha abordagem nos projetos é sempre centrada no usuário: busco unir design e performance para entregar aplicações eficientes e visualmente agradáveis. Acredito que cada detalhe importa, e por isso estou sempre explorando novas tecnologias e aprimorando minhas habilidades.
                     </p>
                 </div>

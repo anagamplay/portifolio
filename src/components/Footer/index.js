@@ -1,4 +1,6 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHouse, faUser, faPhone } from '@fortawesome/free-solid-svg-icons';
 import './Footer.css';
 
 function Footer() {
@@ -7,13 +9,19 @@ function Footer() {
             <div className="footer-content">
                 <nav className="footer-nav">
                     <a href="#home">
-                        <i className="fas fa-home"></i> Home
+                        <i>
+                            <FontAwesomeIcon icon={faHouse} />
+                        </i> Home
                     </a>
                     <a href="#about">
-                        <i className="fas fa-user"></i> About me
+                        <i>
+                            <FontAwesomeIcon icon={faUser} />
+                        </i> Sobre mim
                     </a>
                     <a href="#contact">
-                        <i className="fas fa-phone"></i> Contact
+                        <i>
+                            <FontAwesomeIcon icon={faPhone} />
+                        </i> Contato
                     </a>
                 </nav>
                 <div className="social-icons">

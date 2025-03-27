@@ -27,18 +27,6 @@ const workItems = [
     {
         imageSrc: portifolio,
         description: "Ana Clara Silvestre - Desenvolvedora Front-end e Mobile"
-    },
-    {
-        imageSrc: paceapp,
-        description: "PaceApp - Aplicativo interativo de corrida"
-    },
-    {
-        imageSrc: paceapp,
-        description: "PaceApp - Aplicativo interativo de corrida"
-    },
-    {
-        imageSrc: paceapp,
-        description: "PaceApp - Aplicativo interativo de corrida"
     }
 ];
 
