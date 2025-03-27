@@ -9,7 +9,7 @@ function MyExpertise() {
     return (
         <section className="my-expertise-section">
             <div className="content">
-                <h2 className="title">Minha Especialidade</h2>
+                <h2 className="title">Minhas Especialidades</h2>
                 <div className="boxes">
                     <div className="box">
                         <div className="header">
