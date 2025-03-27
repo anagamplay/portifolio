@@ -4,7 +4,7 @@ import aboutMeImage from '../../assets/about-me.png';
 
 function AboutMe() {
     return (
-        <section className="about-me-section">
+        <section className="about-me-section" id='about'>
             <div className="content">
                 <div className="text-column">
                     <h2 className="title">Sobre <span className="highlight">mim</span></h2>

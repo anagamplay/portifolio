@@ -65,7 +65,7 @@ function MyWork() {
     };
 
     return (
-        <section className="my-work-section">
+        <section className="my-work-section" id='work'>
             <div className="content">
                 <h2 className="title">Meus <span className="highlight">trabalhos</span></h2>
                 <Button className="btn primary">Todos</Button>

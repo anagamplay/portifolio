@@ -57,6 +57,7 @@
     .home-section .image-column {
         margin-top: 0;
         margin-right: 0;
+        justify-content: center;
     }
 
     .home-section .image-column img {

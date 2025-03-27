@@ -5,7 +5,7 @@ import Button from '../../components/Button';
 
 function Home() {
     return (
-        <section className="home-section">
+        <section className="home-section" id='home'>
             <div className="content">
                 <div className="text-column">
                     <h2 className="title">ANA CLARA SILVESTRE</h2>

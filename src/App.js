@@ -32,6 +32,9 @@ function App() {
             <a href="#about" onClick={closeMenu}>
               Sobre mim
             </a>
+            <a href="#work" onClick={closeMenu}>
+              Meus trabalhos
+            </a>
             <a href="#contact" onClick={closeMenu}>
               Contato
             </a>
