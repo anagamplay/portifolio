@@ -1,6 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHouse, faUser, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faGithub, faInstagram, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import './Footer.css';
 
 function Footer() {
@@ -26,16 +27,10 @@ function Footer() {
                 </nav>
                 <div className="social-icons">
                     <a href="https://github.com/anagamplay" target="_blank" rel="noopener noreferrer">
-                        <i className="fab fa-facebook-f"></i>
+                        <FontAwesomeIcon icon={faGithub} />
                     </a>
-                    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-                        <i className="fab fa-instagram"></i>
-                    </a>
-                    <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-                        <i className="fab fa-twitter"></i>
-                    </a>
-                    <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
-                        <i className="fab fa-youtube"></i>
+                    <a href="https://instagram.com/anagamplay" target="_blank" rel="noopener noreferrer">
+                        <FontAwesomeIcon icon={faInstagram} />
                     </a>
                 </div>
                 <div className="footer-legal">
