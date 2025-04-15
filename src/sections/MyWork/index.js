@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChevronRight, faChevronLeft } from '@fortawesome/free-solid-svg-icons';
+import { FaChevronRight, FaChevronLeft } from 'react-icons/fa';
 import './MyWork.css';
 import Button from '../../components/Button';
 import WorkCard from './components/Card';
@@ -69,12 +68,12 @@ function MyWork() {
                 </div>
                 <div className="pagination">
                     <div className="arrow" onClick={handlePreviousPage} disabled={currentPage === 1}>
-                        <FontAwesomeIcon icon={faChevronLeft} />
+                        <FaChevronLeft />
                     </div>
                     <span>{currentPage} de {totalPages}</span>
 
                     <div className="arrow" onClick={handleNextPage} disabled={currentPage === totalPages}>
-                        <FontAwesomeIcon icon={faChevronRight} />
+                        <FaChevronRight />
                     </div>
                 </div>
             </div>
