@@ -1,6 +1,5 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCode, faLaptopCode, faMobileAlt } from '@fortawesome/free-solid-svg-icons';
+import { FaCode, FaLaptopCode, FaMobileAlt } from 'react-icons/fa';
 import LineWithText from './components/LineWithText';
 import backGroundImage from '../../assets/my-expertise-bg.png';
 import './MyExpertise.css';
@@ -13,7 +12,7 @@ function MyExpertise() {
                 <div className="boxes">
                     <div className="box">
                         <div className="header">
-                            <FontAwesomeIcon icon={faCode} className="icon" />
+                            <FaCode className="icon" />
                             <h3>Desenvolvimento <br />de <span className="highlight">Software</span></h3>
                         </div>
                         <div className="line-with-text">
@@ -23,7 +22,7 @@ function MyExpertise() {
                     </div>
                     <div className="box">
                         <div className="header">
-                            <FontAwesomeIcon icon={faLaptopCode} className="icon" />
+                            <FaLaptopCode className="icon" />
                             <h3>Dev Frontend <br /><span className="highlight">React, Laravel</span></h3>
                         </div>
                         <div className="line-with-text">
@@ -33,7 +32,7 @@ function MyExpertise() {
                     </div>
                     <div className="box">
                         <div className="header">
-                            <FontAwesomeIcon icon={faMobileAlt} className="icon" />
+                            <FaMobileAlt className="icon" />
                             <h3>Dev Mobile <br /><span className="highlight">Android</span></h3>
                         </div>
                         <div className="line-with-text">

@@ -1,7 +1,5 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHouse, faUser, faPhone } from '@fortawesome/free-solid-svg-icons';
-import { faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { FaHome, FaUser, FaPhone, FaGithub, FaInstagram } from 'react-icons/fa';
 import './Footer.css';
 
 function Footer() {
@@ -10,27 +8,21 @@ function Footer() {
             <div className="footer-content">
                 <nav className="footer-nav">
                     <a href="#home">
-                        <i>
-                            <FontAwesomeIcon icon={faHouse} />
-                        </i> Home
+                        <i><FaHome /></i> Home
                     </a>
                     <a href="#about">
-                        <i>
-                            <FontAwesomeIcon icon={faUser} />
-                        </i> Sobre mim
+                        <i><FaUser /></i> Sobre mim
                     </a>
                     <a href="#contact">
-                        <i>
-                            <FontAwesomeIcon icon={faPhone} />
-                        </i> Contato
+                        <i><FaPhone /></i> Contato
                     </a>
                 </nav>
                 <div className="social-icons">
                     <a href="https://github.com/anagamplay" target="_blank" rel="noopener noreferrer">
-                        <FontAwesomeIcon icon={faGithub} />
+                        <FaGithub />
                     </a>
                     <a href="https://instagram.com/anagamplay" target="_blank" rel="noopener noreferrer">
-                        <FontAwesomeIcon icon={faInstagram} />
+                        <FaInstagram />
                     </a>
                 </div>
                 <div className="footer-legal">
