@@ -8,7 +8,6 @@ import WorkCard from './components/Card';
 import paceApp from '../../assets/paceapp-tumb.png';
 import colaAqui from '../../assets/cola-aqui-tumb.png';
 import ifms from '../../assets/ifms-tumb.png';
-import paceapp from '../../assets/paceapp-tumb.png';
 import portifolio from '../../assets/portifolio-tumb.png';
 
 const workItems = [
