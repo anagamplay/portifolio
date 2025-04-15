@@ -20,14 +20,12 @@ As principais tecnologias utilizadas no desenvolvimento deste portfólio foram:
 
 ## 🌐 Deploy
 
-O portfólio está publicado e pode ser acessado em:  
-<a href="https://anagamplay.github.io/portifolio/" target="_blank" rel="noopener noreferrer">https://anagamplay.github.io/portifolio/</a>
+O portfólio está publicado e pode ser acessado em:
+[https://anagamplay.github.io/portifolio/](https://anagamplay.github.io/portifolio/)
 
 ## 📫 Contato
 
 Se você quiser me conhecer melhor ou entrar em contato para alguma oportunidade:
-
-- 💼 <a href="https://www.linkedin.com/in/ana-clara-oliveira-47853b2a9/" target="_blank" rel="noopener noreferrer">LinkedIn</a>  
-- 📧 ana.silvestre.contact@gmai.com  
-- 💻 <a href="https://github.com/anagamplay" target="_blank" rel="noopener noreferrer">GitHub</a>  
-
+- 💼 [LinkedIn](https://www.linkedin.com/in/ana-clara-oliveira-47853b2a9/)
+- 📧 ana.silvestre.contact@gmai.com
+- 💻 [GitHub](https://github.com/anagamplay)
